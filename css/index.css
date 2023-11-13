@@ -1,0 +1,119 @@
+
+body
+{
+	background-image: linear-gradient(to bottom,#DE7E64,#F0E589,#0D0D0D);
+	background-attachment: fixed;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+
+.main-div{
+	width: 71%;
+	height: auto;
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f8ff;
+
+}
+
+
+header
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+	font-size: 50px;
+	padding: 3px 0;
+
+}
+.ajusteProp
+{	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 90px;
+	width: 100%;
+}
+span
+{
+	font-size: 50px;
+	padding: 3px 0;
+
+}
+
+
+.lateral
+{
+	width: 15%;
+}
+
+.rodape 
+{
+	width: 100%;
+}
+
+.prop 
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5%;
+	width: 50%;
+	border: 2px solid black;
+}
+
+.emprestimo
+{	
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;   
+	padding-bottom: 90px;
+}
+
+
+.imagens
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#imagemBaixa
+{
+	padding-top: 70px;
+
+}
+
+.descricao
+{
+
+	padding: 0 10px;
+	text-align: justify;	
+	font-size: 12px;
+	color:darkblue;
+
+}
+
+
+.centro
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+}
+.rodape {
+	width: 100%;
+}
